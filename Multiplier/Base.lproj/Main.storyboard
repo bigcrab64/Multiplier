@@ -37,6 +37,11 @@
                                 <state key="normal" title="Multiply">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="multiplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s3m-Kj-4tW"/>
                                 </connections>
